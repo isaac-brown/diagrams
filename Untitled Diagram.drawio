@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-28T00:19:33.379Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="DWF6PcROMaKcazTg6wPW" version="20.8.11" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-01-30T08:40:47.466Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="pkhhxQB-nCZvc0AcOfgi" version="20.8.13" type="github" pages="2">
   <diagram name="Docker" id="zrHI4tY29zFRAnnVJqiF">
-    <mxGraphModel dx="2537" dy="927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2284" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -226,6 +226,9 @@
         <mxCell id="Ih6cFIc23gQM0aYxzpYZ-88" value="&amp;lt;dynamic&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-10" y="480" width="80" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="Fb_8nUKbaXZVIsvgUi4C-1" value="id_rsa.pub" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="396" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -252,7 +255,7 @@
         <mxCell id="JdqZie4KPndp9T757h1O-255" value="" style="group" vertex="1" connectable="0" parent="JdqZie4KPndp9T757h1O-312">
           <mxGeometry x="372.5" y="200" width="210" height="106" as="geometry" />
         </mxCell>
-        <mxCell id="JdqZie4KPndp9T757h1O-248" value="name: &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;pod.plex&lt;br&gt;image:&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;lscr.io/linuxserver/plex:latest" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;verticalAlign=top;align=left;" vertex="1" parent="JdqZie4KPndp9T757h1O-255">
+        <mxCell id="JdqZie4KPndp9T757h1O-248" value="name: &lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;pod.plex&lt;br&gt;image:&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;lscr.io/linuxserver/plex:latest" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;verticalAlign=top;align=left;" vertex="1" parent="JdqZie4KPndp9T757h1O-255">
           <mxGeometry y="30" width="210" height="52" as="geometry" />
         </mxCell>
         <mxCell id="JdqZie4KPndp9T757h1O-249" value="Pod" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="JdqZie4KPndp9T757h1O-255">
@@ -495,7 +498,7 @@
         <mxCell id="JdqZie4KPndp9T757h1O-196" value="database__connection__user" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;verticalAlign=top;fontSize=9;container=0;align=left;" vertex="1" parent="JdqZie4KPndp9T757h1O-313">
           <mxGeometry x="400" y="240" width="155" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="JdqZie4KPndp9T757h1O-169" value="name: &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;pod.ghost.web&lt;br&gt;image: &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;ghost" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;verticalAlign=top;align=left;" vertex="1" parent="JdqZie4KPndp9T757h1O-313">
+        <mxCell id="JdqZie4KPndp9T757h1O-169" value="name: &lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;pod.ghost.web&lt;br&gt;image: &lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;ghost" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;verticalAlign=top;align=left;" vertex="1" parent="JdqZie4KPndp9T757h1O-313">
           <mxGeometry x="365" y="164" width="190" height="52" as="geometry" />
         </mxCell>
         <mxCell id="JdqZie4KPndp9T757h1O-170" value="Pod" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="JdqZie4KPndp9T757h1O-313">
@@ -570,7 +573,7 @@
         <mxCell id="JdqZie4KPndp9T757h1O-214" value="MYSQL_DATABASE" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;verticalAlign=top;fontSize=9;container=0;align=left;" vertex="1" parent="JdqZie4KPndp9T757h1O-230">
           <mxGeometry x="35" y="106" width="155" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="JdqZie4KPndp9T757h1O-215" value="name: &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;pod.ghost.db&lt;br&gt;image: &lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;mariadb" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;verticalAlign=top;align=left;" vertex="1" parent="JdqZie4KPndp9T757h1O-230">
+        <mxCell id="JdqZie4KPndp9T757h1O-215" value="name: &lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;pod.ghost.db&lt;br&gt;image: &lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;mariadb" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;verticalAlign=top;align=left;" vertex="1" parent="JdqZie4KPndp9T757h1O-230">
           <mxGeometry y="30" width="190" height="52" as="geometry" />
         </mxCell>
         <mxCell id="JdqZie4KPndp9T757h1O-216" value="Pod" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="JdqZie4KPndp9T757h1O-230">
@@ -657,7 +660,7 @@
         <mxCell id="JdqZie4KPndp9T757h1O-167" value="" style="group;" vertex="1" connectable="0" parent="JdqZie4KPndp9T757h1O-342">
           <mxGeometry x="492.5" y="224" width="190" height="106" as="geometry" />
         </mxCell>
-        <mxCell id="JdqZie4KPndp9T757h1O-97" value="name: heimdall&lt;br&gt;image:&amp;nbsp;	lscr.io/linuxserver/heimdall" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;verticalAlign=top;align=left;" vertex="1" parent="JdqZie4KPndp9T757h1O-167">
+        <mxCell id="JdqZie4KPndp9T757h1O-97" value="name: heimdall&lt;br&gt;image:&amp;nbsp; lscr.io/linuxserver/heimdall" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;verticalAlign=top;align=left;" vertex="1" parent="JdqZie4KPndp9T757h1O-167">
           <mxGeometry y="30" width="190" height="52" as="geometry" />
         </mxCell>
         <mxCell id="JdqZie4KPndp9T757h1O-98" value="Pod" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;" vertex="1" parent="JdqZie4KPndp9T757h1O-167">
@@ -840,7 +843,7 @@
         <mxCell id="JdqZie4KPndp9T757h1O-398" value="53" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;verticalAlign=top;strokeColor=#000000;" vertex="1" parent="JdqZie4KPndp9T757h1O-370">
           <mxGeometry x="530" y="330" width="152.5" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="JdqZie4KPndp9T757h1O-372" value="name: pihole&lt;br&gt;image:&amp;nbsp;	pihole" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;verticalAlign=top;align=left;" vertex="1" parent="JdqZie4KPndp9T757h1O-370">
+        <mxCell id="JdqZie4KPndp9T757h1O-372" value="name: pihole&lt;br&gt;image:&amp;nbsp; pihole" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;verticalAlign=top;align=left;" vertex="1" parent="JdqZie4KPndp9T757h1O-370">
           <mxGeometry x="492.5" y="254" width="190" height="52" as="geometry" />
         </mxCell>
         <mxCell id="JdqZie4KPndp9T757h1O-373" value="Pod" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;" vertex="1" parent="JdqZie4KPndp9T757h1O-370">
@@ -957,7 +960,7 @@
         <mxCell id="JdqZie4KPndp9T757h1O-432" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="JdqZie4KPndp9T757h1O-412" source="JdqZie4KPndp9T757h1O-430" target="JdqZie4KPndp9T757h1O-435">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JdqZie4KPndp9T757h1O-434" value="name: pihole&lt;br&gt;image:&amp;nbsp;	pihole" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;verticalAlign=top;align=left;" vertex="1" parent="JdqZie4KPndp9T757h1O-412">
+        <mxCell id="JdqZie4KPndp9T757h1O-434" value="name: pihole&lt;br&gt;image:&amp;nbsp; pihole" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;verticalAlign=top;align=left;" vertex="1" parent="JdqZie4KPndp9T757h1O-412">
           <mxGeometry x="492.5" y="254" width="190" height="52" as="geometry" />
         </mxCell>
         <mxCell id="JdqZie4KPndp9T757h1O-435" value="Pod" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;" vertex="1" parent="JdqZie4KPndp9T757h1O-412">
